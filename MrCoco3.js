@@ -865,7 +865,7 @@ p.nominalBounds = new cjs.Rectangle(61.6,-18.9,198.8,208.9);
 
 	// timeline functions:
 	this.frame_0 = function() {
-		createjs.Sound.registerSound("/sounds/MrCoco2.mp3","coco");
+		createjs.Sound.registerSound("sounds/MrCoco2.mp3","coco");
 		var self = this;
 		self.stop();
 		self.startBun.addEventListener("click",start);
